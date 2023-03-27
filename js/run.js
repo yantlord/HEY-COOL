@@ -1,7 +1,7 @@
 window.addEventListener("load", () => {
     alert("weiner ")
     
-    let socket = new WebSocket("wss://localhost:4201");
+    let socket = new WebSocket("wss://127.0.0.1:4201");
 
     socket.onopen = function(e) {
         alert("[open] Connection established");
